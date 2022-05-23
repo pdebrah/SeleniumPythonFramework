@@ -6,10 +6,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 
-def pytest_addoption(parser):
-    parser.addoption(
-        "--browser_name", action="store", default="chrome", help="my option: type1 or type2"
-    )
+#def pytest_addoption(parser):
+    #parser.addoption(
+       # "--browser_name", action="store", default="chrome", help="my option: type1 or type2"
+   # )
 
 
 @pytest.fixture(scope="class")
